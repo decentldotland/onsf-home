@@ -2,20 +2,20 @@ import React from 'react'
 
 function Track(props) {
     return (
-        <div class="p-5 max-w-xl m-auto p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div class="p-5 max-w-xl m-auto p-6 bg-white border border-gray-200 rounded-lg shadow">
             <a href="#">
                 <div className="grid grid-cols-2 gap-16 justify-items-end">
                     <div>
-                        <h5 class="mb-4 mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <h5 class="mb-4 mt-2 text-2xl font-bold tracking-tight text-gray-900">
                             {props.content.title}
                         </h5>
                     </div>
-                    <div class="mb-4 mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <div class="mb-4 mt-2 text-2xl font-bold tracking-tight text-gray-900">
                         {props.content.icon}
                     </div>
                 </div>
             </a>
-            <p class="mb-5 mt-5 font-normal text-gray-700 dark:text-gray-400">
+            <p class="mb-5 mt-5 font-normal text-gray-700">
                 {props.content.desc}
             </p>
 
