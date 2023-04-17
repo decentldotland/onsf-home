@@ -40,7 +40,7 @@ function App() {
           Tracks
         </h1>
       </div>
-      <div className="grid grid-cols-1 gap-10 pb-8">
+      <div className="grid grid-cols-1 gap-10 pb-8 px-8">
         <Track content={tracks.education} />
         <Track content={tracks.devtooling} />
         <Track content={tracks.web3dapps} />
