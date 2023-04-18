@@ -6,7 +6,7 @@ function Arweave() {
             <div class="max-w-7xl mx-auto">
                 <div class="text-4xl px-5">
                     <h1
-                        class="mx-5 text-black bg-clip-text font-extrabold text-transparent"
+                        class="mx-5 text-black bg-clip-text font-extrabold text-transparent mb-5 md:mb-0"
                     >
                         Build on Arweave
                     </h1>
