@@ -1,4 +1,8 @@
-function Hero() {
+function Hero({ tracksRef }) {
+    const scrollToTracks = () => {
+        tracksRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
+
     return (
         <section class="bg-gray-900 text-white">
             <div
@@ -26,17 +30,16 @@ function Hero() {
                             Register
                         </a>
 
-                        <a
+                        <button
                             class="block w-full rounded border border-yellow-500 px-12 py-3 text-sm font-medium text-yellow-500 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-                            href="/about"
+                            onClick={scrollToTracks}
                         >
                             See Tracks
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
         </section>
-
     );
 }
 

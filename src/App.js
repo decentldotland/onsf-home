@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import Hero from "./components/Hero";
 import Logos from "./components/Logos";
 import Arweave from "./components/Arweave";
@@ -28,12 +28,14 @@ const tracks = {
 }
 
 function App() {
+  const tracksRef = useRef();
+
   return (
     <div className="bg-gray-900">
-      <Hero />
+      <Hero tracksRef={tracksRef} />
       <Arweave />
       <Logos />
-      <div class="mx-auto max-w-4xl text-center mt-8 py-6">
+      <div ref={tracksRef} class="mx-auto max-w-4xl text-center mt-8 py-6">
         <h1
           class="mb-5 bg-gradient-to-r from-pink-400 to-yellow-400 bg-clip-text text-4xl font-extrabold text-transparent sm:text-4xl"
         >
