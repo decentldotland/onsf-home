@@ -1,10 +1,9 @@
-
 import FeatureImg1 from '../images/feature1.png';
 
 function FeatureOne() {
     return (
-        <div className="font-mono mx-auto py-16 bg-gray-100">
-            <div className="max-w-7xl mx-auto">
+        <div className="p-8 font-mono flex md:min-h-screen h-full bg-gray-100">
+            <div className="max-w-7xl mx-auto self-center">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                     <div className="ml-8 flex flex-col justify-center items-start px-5">
                         <h1 className="text-4xl text-black bg-clip-text font-extrabold text-transparent mb-5 md:mb-5">
@@ -24,7 +23,7 @@ function FeatureOne() {
                             src={FeatureImg1}
                             alt="feature 1"
                         />
-    </div>
+                    </div>
                 </div>
             </div>
         </div>

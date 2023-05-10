@@ -1,12 +1,11 @@
-
 import FeatureImg2 from '../images/feature2.png';
 
 function FeatureTwo() {
     return (
-        <div className="font-mono mx-auto py-16 bg-gray-100">
-            <div className="max-w-7xl mx-auto">
+        <div className="p-8 font-mono flex min-h-screen h-full bg-gray-100">
+            <div className="max-w-7xl mx-auto self-center">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div className="flex items-center justify-center">
+                    <div className="flex items-center justify-center md:flex-col md:items-end">
                         <img
                             className="w-full max-w-md"
                             src={FeatureImg2}
