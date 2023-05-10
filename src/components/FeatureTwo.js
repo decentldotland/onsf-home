@@ -13,7 +13,7 @@ function FeatureTwo() {
                         />
                     </div>
                     <div className="flex flex-col justify-center items-start px-5">
-                        <h1 className="text-4xl text-black bg-clip-text font-extrabold text-transparent mb-5 md:mb-5">
+                        <h1 className="text-2xl text-black bg-clip-text font-extrabold text-transparent mb-5 md:mb-5">
                             Chain-agnostic tech stack, secured by Arweave
                         </h1>
                         <div className="text-lg my-4">

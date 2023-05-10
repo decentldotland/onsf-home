@@ -6,7 +6,7 @@ function FeatureOne() {
             <div className="max-w-7xl mx-auto self-center">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                     <div className="ml-8 flex flex-col justify-center items-start px-5">
-                        <h1 className="text-4xl text-black bg-clip-text font-extrabold text-transparent mb-5 md:mb-5">
+                        <h1 className="text-2xl text-black bg-clip-text font-extrabold text-transparent mb-5 md:mb-5">
                             Spin up an identity system for your DAO, protocol, dApp or chain.
                         </h1>
                         <div className="text-lg my-4">
