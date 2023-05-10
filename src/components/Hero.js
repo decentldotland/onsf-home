@@ -10,28 +10,27 @@ function Hero({ tracksRef }) {
   };
 
   return (
-    <section className="bg-black text-white relative">
+    <section className="bg-black text-white relative overflow-x-hidden">
       <img src={Logo} alt="Logo" width={50} className="absolute top-2 left-2" />
       <div className="bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-indigo-400/20 via-black/0 via-black/0 via-black/0 to-black/0">
-        <div className="mx-auto px-4 py-32 lg:flex lg:h-screen lg:items-center">
-          <div className="mx-auto max-w-6xl text-center">
-            <h1 className="font-hero bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 bg-clip-text text-3xl font-extrabold text-transparent sm:text-3xl">
+        <div className="mx-auto px-4 py-16 md:py-32 lg:flex lg:h-screen lg:items-center">
+          <div className="mx-auto font-hero max-w-2xl text-center">
+            <h1 className="text-4xl sm:text-5xl xs:text-xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 leading-tight">
               Open Name Service Framework
-              <span className="sm:block">  </span>
             </h1>
-            <p className="mx-auto font-mono mt-4 max-w-xl sm:text-xl sm:leading-relaxed">
+
+            <p className="mx-auto font-mono mt-4 max-w-xl text-lg md:text-xl lg:text-xl xl:text-2xl sm:leading-relaxed">
               A universe of sovereign name services
             </p>
             <div className="font-mono mt-8 flex flex-wrap justify-center gap-4">
               <button
-                className="block w-full text-xl rounded bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 px-12 py-3 text-sm font-medium text-gray-900 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+                className="block w-full md:w-auto text-xl rounded bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 px-12 py-3 text-sm font-medium text-gray-900 focus:outline-none focus:ring active:text-opacity-75"
                 onClick={toggleModal}
               >
                 Beta test it
               </button>
               <button
-                className="block w-full text-xl rounded border border-indigo-400 px-12 py-3 text-sm font-medium text-indigo-400 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-                
+                className="block w-full md:w-auto text-xl rounded border border-indigo-400 px-12 py-3 text-sm font-medium text-indigo-400 focus:outline-none focus:ring active:bg-blue-500"
               >
                 <a href="https://github.com/decentldotland/onsf">Read the docs</a>
               </button>
