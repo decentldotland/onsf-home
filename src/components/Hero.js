@@ -15,7 +15,7 @@ function Hero({ tracksRef }) {
       <div className="bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-indigo-400/20 via-black/0 via-black/0 via-black/0 to-black/0">
         <div className="mx-auto px-4 py-32 lg:flex lg:h-screen lg:items-center">
           <div className="mx-auto max-w-6xl text-center">
-            <h1 className="font-hero bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
+            <h1 className="font-hero bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 bg-clip-text text-3xl font-extrabold text-transparent sm:text-3xl">
               Open Name Service Framework
               <span className="sm:block">  </span>
             </h1>
