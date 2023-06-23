@@ -1,5 +1,3 @@
-import FeatureImg1 from '../images/feature1.png';
-
 function FeatureOne() {
     return (
         <div className="p-8 font-mono flex md:min-h-screen h-full bg-gray-100">
@@ -18,11 +16,7 @@ function FeatureOne() {
                         </div>
                     </div>
                     <div className="flex items-center justify-center">
-                        <img
-                            className="w-full max-w-md"
-                            src={FeatureImg1}
-                            alt="feature 1"
-                        />
+                        <img className="w-full max-w-md" src={'/feature1.png'} alt="feature 1" />
                     </div>
                 </div>
             </div>
