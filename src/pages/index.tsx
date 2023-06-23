@@ -1,9 +1,8 @@
 import React, { useRef } from 'react';
-import Hero from "./components/Hero";
-import FeatureOne from "./components/FeatureOne";
-import FeatureTwo from './components/FeatureTwo';
-import Track from "./components/Track";
-import Raven from "./images/raven.png"
+import Hero from "../components/Hero";
+import FeatureOne from "../components/FeatureOne";
+import FeatureTwo from '../components/FeatureTwo';
+import Track from "../components/Track";
 
 const namespaces = {
   ans: {
@@ -16,7 +15,7 @@ const namespaces = {
   more: {
     title: 'Raven Protocol Name Service',
     icon: '',
-    pic: `${Raven}`,
+    pic: `/raven.png`,
     cta: 'Coming soon...',
     ctaLink: '',
     disabled: 'disabled',
@@ -30,7 +29,7 @@ const namespaces = {
     disabled: 'disabled',
     desc: 'We\'re onboarding early beta users as we move towards automating the process. Get in touch',
   }
-  }
+}
 
 function App() {
   const tracksRef = useRef();
@@ -40,9 +39,10 @@ function App() {
       <Hero tracksRef={tracksRef} />
       <FeatureOne />
       <FeatureTwo />
-      <div ref={tracksRef} class="mx-auto max-w-4xl text-center mt-8 py-6">
+      {/* @ts-ignore */}
+      <div ref={tracksRef} className="mx-auto max-w-4xl text-center mt-8 py-6">
         <h1
-          class="mb-5 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 bg-clip-text text-4xl font-extrabold text-transparent sm:text-4xl"
+          className="mb-5 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 bg-clip-text text-4xl font-extrabold text-transparent sm:text-4xl"
         >
           Namespaces
         </h1>

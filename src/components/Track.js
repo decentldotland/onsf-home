@@ -9,7 +9,7 @@ function Track(props) {
   };
 
   return (
-    <div className="font-mono p-5 max-w-xl m-auto p-6 bg-white border border-gray-200 rounded-lg shadow">
+    <div className="font-mono max-w-xl m-auto p-6 bg-white border border-gray-200 rounded-lg shadow">
       <a href="#">
         <div className="flex justify-between">
           <div>
