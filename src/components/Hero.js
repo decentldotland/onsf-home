@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from '../images/logo.png';
+import Logo from '../images/logo-circle.png';
 import { FaTwitter, FaTelegramPlane, FaCalendarAlt } from 'react-icons/fa';
 
 function Hero({ tracksRef }) {
@@ -11,12 +11,12 @@ function Hero({ tracksRef }) {
 
   return (
     <section className="bg-black text-white relative overflow-x-hidden">
-      <img src={Logo} alt="Logo" width={50} className="absolute top-2 left-2" />
+      {/*<img src={Logo} alt="Logo" width={50} className="absolute top-2 left-2" />*/}
       <div className="bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-indigo-400/20 via-black/0 via-black/0 via-black/0 to-black/0">
         <div className="mx-auto px-4 py-16 md:py-32 lg:flex lg:h-screen lg:items-center">
           <div className="mx-auto font-hero max-w-2xl text-center">
-            <h1 className="text-4xl sm:text-5xl xs:text-xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 leading-tight">
-              Open Name Service Framework
+            <h1 className="p-2 text-4xl sm:text-6xl xs:text-xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 leading-tight">
+              namespace.gg
             </h1>
 
             <p className="mx-auto font-mono mt-4 max-w-xl text-lg md:text-xl lg:text-xl xl:text-2xl sm:leading-relaxed">

@@ -20,7 +20,7 @@ const namespaces = {
     cta: 'Coming soon...',
     ctaLink: '',
     disabled: 'disabled',
-    desc: 'Raven Protocol developed their .raven identity system on top of ONSF',
+    desc: 'Raven Protocol developed their .raven identity system on top of namespace.gg',
   },
   yours: {
     title: 'Create yours',

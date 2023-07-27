@@ -1,3 +1,3 @@
-# ONSF.io home
+# namespace.gg home
 
 `npm run start`

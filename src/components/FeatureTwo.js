@@ -17,9 +17,9 @@ function FeatureTwo() {
                             Chain-agnostic tech stack, secured by Arweave
                         </h1>
                         <div className="text-lg my-4">
-                            ONSF is built on EXM - a smart contract L2 on Arweave, and everPay - a multichain L2 payment processor.
+                            namespace.gg is built on EXM- a smart contract L2 on Arweave, and everPay - a multichain L2 payment processor.
                             <div className='my-4'><p>
-                                EXM contracts can be signed by all chains supported by molecule.sh: EVM, Arweave, Solana, Polkadot, Stacks, TON, and more.
+                                EXMcontracts can be signed by all chains supported by molecule.sh: EVM, Arweave, Solana, Polkadot, Stacks, TON, and more.
                             </p>
                             </div>
                         </div>

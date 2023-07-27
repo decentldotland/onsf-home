@@ -10,7 +10,7 @@ function FeatureOne() {
                             Spin up an identity system for your DAO, protocol, dApp or chain.
                         </h1>
                         <div className="text-lg my-4">
-                            ONSF is a chain-agnostic (yet on-chain) stack to deploy custom name services. All deployments are cross-indexed, building a web of interoperable identities.
+                            namespace.gg is a chain-agnostic stack to deploy custom name services, on-chain. All deployments are cross-indexed, building a web of interoperable identities.
                             <div className='my-4'><p>
                                 Features customizable minting site, marketplace, APIs, dev tooling and full dashboard web app.
                             </p>
